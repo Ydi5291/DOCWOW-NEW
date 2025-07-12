@@ -30,9 +30,6 @@ function Header() {
   return (
     <header className="header">
       <div className="header-container">
-        <div className="logo">
-          <h1>DOC. WOW</h1>
-        </div>
         <nav className="nav">
           <ul className="nav-list">
             <li><a href="#start" className={`nav-link ${activeSection === 'start' ? 'active' : ''}`}>Start</a></li>
