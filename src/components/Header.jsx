@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react'
 import './Header.css'
 
 function Header() {
-  const [activeSection, setActiveSection] = useState('start')
+  const [activeSection, setActiveSection] = useState('kontakt')
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['start', 'kontakt', 'speisekarte', 'impressum', 'datenschutz']
+      const sections = ['kontakt', 'speisekarte', 'impressum', 'datenschutz']
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -30,9 +30,14 @@ function Header() {
   return (
     <header className="header">
       <div className="header-container">
+        <div className="logo-row">
+          <h1 className="restaurant-title logo">DOC. WOW</h1>
+        </div>
+        <div className="header-content">
+          <p className="welcome-message animated-welcome">Sie sind herzlich willkommen bei DOC. WOW</p>
+        </div>
         <nav className="nav">
           <ul className="nav-list">
-            <li><a href="#start" className={`nav-link ${activeSection === 'start' ? 'active' : ''}`}>Start</a></li>
             <li><a href="#kontakt" className={`nav-link ${activeSection === 'kontakt' ? 'active' : ''}`}>Uns kontaktieren</a></li>
             <li><a href="#speisekarte" className={`nav-link ${activeSection === 'speisekarte' ? 'active' : ''}`}>Speisekarte</a></li>
             <li><a href="#impressum" className={`nav-link ${activeSection === 'impressum' ? 'active' : ''}`}>Impressum</a></li>

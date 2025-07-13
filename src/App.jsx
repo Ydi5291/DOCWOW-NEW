@@ -8,12 +8,11 @@ function App() {
       <Header />
       
       <main className="main-content">
-        {/* Section Start */}
-        <section id="start" className="section">
-          <div className="restaurant-header">
-            <p className="restaurant-tagline animated-welcome">Sie sind herzlich willkommen bei DOC. WOW</p>
+        {/* Section Kontakt */}
+        <section id="kontakt" className="section">
+          <div className="section-header">
+            <h2>Uns kontaktieren</h2>
           </div>
-          
           <div className="restaurant-info">
             <div className="info-card address-card">
               <h2>Adresse</h2>
@@ -63,15 +62,7 @@ function App() {
               <p>Samstag: 17:00 - 00:00</p>
               <p>Sonntag: 17:00 - 00:00</p>
             </div>
-          </div>
-        </section>
 
-        {/* Section Kontakt */}
-        <section id="kontakt" className="section">
-          <div className="section-header">
-            <h2>Uns kontaktieren</h2>
-          </div>
-          <div className="restaurant-info">
             <div className="info-card">
               <h2>Kontakt</h2>
               <p>Geschäftsführer:</p>
