@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ScrollToTopButton from './components/ScrollToTopButton'
 
 function App() {
   return (
@@ -234,10 +235,11 @@ function App() {
           </div>
         </section>
       </main>
+      <ScrollToTopButton />
       
       <Footer />
     </>
-  )
+  );
 }
 
 export default App

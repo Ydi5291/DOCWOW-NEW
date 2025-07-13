@@ -3,11 +3,13 @@ html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  overflow-x: hidden; 
 }
 
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden; 
 }
 
 #root {
@@ -16,6 +18,7 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  overflow-x: hidden; 
 }
 
 .main-content {
@@ -226,13 +229,12 @@ body {
   }
   
   .main-content {
-    padding: 1rem;
+    padding: 1rem 0.5rem;
   }
   
   .section {
     min-height: 70vh;
-    padding: 2rem 0;
-  }
+    padding: 2rem 0.5rem;
   
   .section-header h2 {
     font-size: 2rem;
