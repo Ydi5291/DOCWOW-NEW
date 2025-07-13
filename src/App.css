@@ -235,7 +235,7 @@ body {
   .section {
     min-height: 70vh;
     padding: 2rem 0.5rem;
-  
+  }
   .section-header h2 {
     font-size: 2rem;
   }
@@ -273,3 +273,4 @@ body {
     animation-duration: 12s;
   }
 }
+

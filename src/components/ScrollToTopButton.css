@@ -14,8 +14,6 @@
   z-index: 9999;
   opacity: 0.85;
   transition: background 0.2s, opacity 0.2s;
-  
-  /* Propriétés de centrage */
   display: flex;
   justify-content: center;
   align-items: center;
