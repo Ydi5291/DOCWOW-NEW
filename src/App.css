@@ -1,3 +1,17 @@
+.menu-pdf-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 0.7rem 1.5rem;
+  background: #2c3e50;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.menu-pdf-link:hover {
+  background: #4c51bf;
+}
 /* Smooth scrolling for the entire page */
 html {
   scroll-behavior: smooth;

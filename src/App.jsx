@@ -110,6 +110,14 @@ function App() {
             <h2>Speisekarte</h2>
           </div>
           <div className="restaurant-info">
+            <a
+              href="/DOCWOW-NEW/speisekarte.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="menu-pdf-link"
+            >
+              📄 Unsere Speisekarte als PDF ansehen
+            </a>
             <div className="info-card">
               <h2>Vorspeisen</h2>
               <p>Bald verfügbar...</p>
