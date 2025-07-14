@@ -55,20 +55,15 @@ function App() {
             
             <div className="info-card">
               <h2>Öffnungszeiten</h2>
-              <p>Montag: 17:00 - 00:00</p>
-              <p>Dienstag: 17:00 - 00:00</p>
-              <p>Mittwoch: 17:00 - 00:00</p>
-              <p>Donnerstag: 17:00 - 00:00</p>
-              <p>Freitag: 17:00 - 00:00</p>
-              <p>Samstag: 17:00 - 00:00</p>
-              <p>Sonntag: 17:00 - 00:00</p>
+              <p>Montag - Freitag: 11:00 - 22:00</p>
+              <p>Sonn- & Feiertage: 13:00 - 22:00</p>
             </div>
 
             <div className="info-card">
               <h2>Kontakt</h2>
               <p>Geschäftsführer:</p>
               <p>Mostafa Saleh Mohamed Abdelhamid</p>
-              <p><strong>Telefon:</strong> +49 (0) 2922 XXX XXX</p>
+              <p><strong>Telefon:</strong> 02922/9590385</p>
               <p><strong>Email:</strong> info@docwow.de</p>
             </div>
             
@@ -79,7 +74,7 @@ function App() {
               
               <div className="contact-options">
                 <a 
-                  href="tel:+4929228888888" 
+                  href="tel:029229590385" 
                   className="contact-btn phone-btn"
                 >
                   📞 Telefon anrufen
@@ -88,7 +83,7 @@ function App() {
                 <span className="oder-text">oder</span>
                 
                 <a 
-                  href="https://wa.me/4929228888888?text=Hallo%20DOC.%20WOW,%20ich%20möchte%20gerne%20eine%20Bestellung%20aufgeben."
+                  href="https://wa.me/491785450135?text=Hallo%20DOC.%20WOW,%20ich%20möchte%20gerne%20eine%20Bestellung%20aufgeben."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-btn whatsapp-btn"
@@ -118,18 +113,6 @@ function App() {
             >
               📄 Unsere Speisekarte als PDF ansehen
             </a>
-            <div className="info-card">
-              <h2>Vorspeisen</h2>
-              <p>Bald verfügbar...</p>
-            </div>
-            <div className="info-card">
-              <h2>Hauptgerichte</h2>
-              <p>Bald verfügbar...</p>
-            </div>
-            <div className="info-card">
-              <h2>Getränke</h2>
-              <p>Bald verfügbar...</p>
-            </div>
           </div>
         </section>
 
@@ -150,8 +133,8 @@ function App() {
               <p>Mostafa Saleh Mohamed Abdelhamid</p>
               <br />
               <p><strong>Kontakt:</strong></p>
-              <p>Telefon: +49 2922 9778866</p>
-              <p>E-Mail: info@docwow-werl.de</p>
+              <p>Telefon: 02922/9590385</p>
+              <p>E-Mail: info@docwow.de</p>
             </div>
             <div className="info-card">
               <h2>Umsatzsteuer-ID</h2>
@@ -211,8 +194,8 @@ function App() {
               Mostafa Saleh Mohamed Abdelhamid<br />
               Büdericher Bundesstraße 68<br />
               59457 Werl<br />
-              Telefon: +49 2922 9778866<br />
-              E-Mail: info@docwow-werl.de</p>
+              Telefon: 02922/9590385<br />
+              E-Mail: info@docwow.de</p>
             </div>
             <div className="info-card">
               <h2>4. Datenerfassung auf dieser Website</h2>
