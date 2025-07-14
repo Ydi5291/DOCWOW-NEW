@@ -94,6 +94,7 @@ function App() {
               
               <div className="opening-note">
                 <p><em>Bestellungen sind während unserer Öffnungszeiten möglich</em></p>
+                <p style={{ color: '#48bb78', fontWeight: 600, marginTop: '0.5rem' }}>Gratis Lieferung ab 20,00&nbsp;€</p>
               </div>
             </div>
           </div>
@@ -145,6 +146,9 @@ function App() {
               <p>Ordnungsamt Werl</p>
               <p>Melsterstraße 11</p>
               <p>59457 Werl</p>
+              <br />
+              <p><strong>Reisegewerbekarte:</strong></p>
+              <p>Erteilt durch die Wallfahrtsstadt Werl, Der Bürgermeister, Abteilung Sicherheit und Ordnung</p>
             </div>
             <div className="info-card">
               <h2>Streitschlichtung</h2>
