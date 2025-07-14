@@ -14,7 +14,6 @@ function Footer() {
           <div className="footer-section">
             <h4>Navigation</h4>
             <ul className="footer-links">
-              <li><a href="#start">Start</a></li>
               <li><a href="#kontakt">Uns kontaktieren</a></li>
               <li><a href="#speisekarte">Speisekarte</a></li>
             </ul>
