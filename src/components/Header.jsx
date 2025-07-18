@@ -35,33 +35,22 @@ function Header(props) {
         <nav className="nav">
           <ul className="nav-list">
             <li><a href="#kontakt" className={`nav-link ${activeSection === 'kontakt' ? 'active' : ''}`}>Uns kontaktieren</a></li>
+            <li>
+              <button
+                type="button"
+                className="nav-link"
+                style={{ scrollBehavior: 'smooth', background: 'none' }}
+                onClick={() => {
+                  const el = document.getElementById('bestellung-card');
+                  if (el) {
+                    el.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+              >
+                Bestellen
+              </button>
+            </li>
             <li><a href="#speisekarte" className={`nav-link ${activeSection === 'speisekarte' ? 'active' : ''}`}>Speisekarte</a></li>
-            <li>
-              <button
-                type="button"
-                className="nav-link"
-                style={{ scrollBehavior: 'smooth', background: 'none' }}
-                onClick={e => {
-                  props.onImpressumClick();
-                  e.currentTarget.blur();
-                }}
-              >
-                Impressum
-              </button>
-            </li>
-            <li>
-              <button
-                type="button"
-                className="nav-link"
-                style={{ scrollBehavior: 'smooth', background: 'none' }}
-                onClick={e => {
-                  props.onAGBClick();
-                  e.currentTarget.blur();
-                }}
-              >
-                AGB
-              </button>
-            </li>
           </ul>
         </nav>
       </div>

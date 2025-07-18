@@ -63,7 +63,7 @@ function MainPage() {
               <p><strong>Telefon:</strong> 02922/9590385</p>
               <p><strong>Email:</strong> info@docwow.de</p>
             </div>
-            <div className="info-card bestellung-card">
+            <div className="info-card bestellung-card" id="bestellung-card">
               <h2>Bestellungen</h2>
               <p>Möchten Sie eine Bestellung aufgeben?</p>
               <p>Kontaktieren Sie uns gerne per:</p>

@@ -15,6 +15,21 @@ function Footer(props) {
             <h4>Navigation</h4>
             <ul className="footer-links">
               <li><a href="#kontakt">Uns kontaktieren</a></li>
+              <li>
+                <button
+                  type="button"
+                  className="nav-link"
+                  style={{ scrollBehavior: 'smooth', background: 'none' }}
+                  onClick={() => {
+                    const el = document.getElementById('bestellung-card');
+                    if (el) {
+                      el.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
+                  Bestellen
+                </button>
+              </li>
               <li><a href="#speisekarte">Speisekarte</a></li>
             </ul>
           </div>
