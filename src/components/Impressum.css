@@ -1,0 +1,26 @@
+/* Impressum.css – Styles for Impressum (Legal Notice) page */
+.impressum-page {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  /* box-shadow: 0 2px 16px rgba(0,0,0,0.07); */
+}
+
+.impressum-page h1, .impressum-page h2 {
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.impressum-page p {
+  color: #444;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .impressum-page {
+    padding: 1rem 0.5rem;
+  }
+}

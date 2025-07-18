@@ -1,31 +1,27 @@
-import { useState, useEffect } from 'react'
-import './Header.css'
-
-function Header() {
-  const [activeSection, setActiveSection] = useState('kontakt')
+import React, { useState, useEffect } from 'react';
+import './Header.css';
+function Header(props) {
+  const [activeSection, setActiveSection] = useState('kontakt');
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['kontakt', 'speisekarte', 'impressum', 'datenschutz']
-      const scrollPosition = window.scrollY + 100
-
+      const sections = ['kontakt', 'speisekarte', 'impressum', 'datenschutz'];
+      const scrollPosition = window.scrollY + 100;
       for (const section of sections) {
-        const element = document.getElementById(section)
+        const element = document.getElementById(section);
         if (element) {
-          const offsetTop = element.offsetTop
-          const offsetBottom = offsetTop + element.offsetHeight
-
+          const offsetTop = element.offsetTop;
+          const offsetBottom = offsetTop + element.offsetHeight;
           if (scrollPosition >= offsetTop && scrollPosition < offsetBottom) {
-            setActiveSection(section)
-            break
+            setActiveSection(section);
+            break;
           }
         }
       }
-    }
-
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <header className="header">
@@ -40,13 +36,21 @@ function Header() {
           <ul className="nav-list">
             <li><a href="#kontakt" className={`nav-link ${activeSection === 'kontakt' ? 'active' : ''}`}>Uns kontaktieren</a></li>
             <li><a href="#speisekarte" className={`nav-link ${activeSection === 'speisekarte' ? 'active' : ''}`}>Speisekarte</a></li>
-            <li><a href="#impressum" className={`nav-link ${activeSection === 'impressum' ? 'active' : ''}`}>Impressum</a></li>
-            <li><a href="#datenschutz" className={`nav-link ${activeSection === 'datenschutz' ? 'active' : ''}`}>Datenschutz</a></li>
+            <li>
+              <button type="button" className="nav-link" onClick={props.onImpressumClick}>
+                Impressum
+              </button>
+            </li>
+            <li>
+              <button type="button" className="nav-link" onClick={props.onAGBClick}>
+                AGB
+              </button>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

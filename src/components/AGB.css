@@ -1,0 +1,26 @@
+/* AGB.css – Styles for Allgemeine Geschäftsbedingungen page */
+.agb-page {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+
+.agb-page h1, .agb-page h2 {
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.agb-page p {
+  color: #444;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .agb-page {
+    padding: 0.5rem 0.5rem;
+  }
+}
