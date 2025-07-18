@@ -37,12 +37,28 @@ function Header(props) {
             <li><a href="#kontakt" className={`nav-link ${activeSection === 'kontakt' ? 'active' : ''}`}>Uns kontaktieren</a></li>
             <li><a href="#speisekarte" className={`nav-link ${activeSection === 'speisekarte' ? 'active' : ''}`}>Speisekarte</a></li>
             <li>
-              <button type="button" className="nav-link" onClick={props.onImpressumClick}>
+              <button
+                type="button"
+                className="nav-link"
+                style={{ scrollBehavior: 'smooth', background: 'none' }}
+                onClick={e => {
+                  props.onImpressumClick();
+                  e.currentTarget.blur();
+                }}
+              >
                 Impressum
               </button>
             </li>
             <li>
-              <button type="button" className="nav-link" onClick={props.onAGBClick}>
+              <button
+                type="button"
+                className="nav-link"
+                style={{ scrollBehavior: 'smooth', background: 'none' }}
+                onClick={e => {
+                  props.onAGBClick();
+                  e.currentTarget.blur();
+                }}
+              >
                 AGB
               </button>
             </li>
