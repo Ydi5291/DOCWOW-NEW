@@ -53,8 +53,13 @@ function MainPage() {
             </div>
             <div className="info-card">
               <h2>Öffnungszeiten</h2>
-              <p>Montag - Freitag: 11:00 - 22:00</p>
-              <p>Sonn- & Feiertage: 13:00 - 22:00</p>
+              <p>Montag: 17:00 - 00:00</p>
+              <p>Dienstag: 17:00 - 00:00</p>
+              <p>Mittwoch: Geschlossen</p>
+              <p>Donnerstag: 17:00 - 00:00</p>
+              <p>Freitag: 17:00 - 00:00</p>
+              <p>Samstag: 17:00 - 00:00</p>
+              <p>Sonntag: 17:00 - 00:00</p>
             </div>
             <div className="info-card">
               <h2>Kontakt</h2>
