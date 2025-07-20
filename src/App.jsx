@@ -91,7 +91,7 @@ function MainPage() {
               </div>
               <div className="opening-note">
                 <p><em>Bestellungen sind während unserer Öffnungszeiten möglich</em></p>
-                <p style={{ color: '#48bb78', fontWeight: 600, marginTop: '0.5rem' }}>Gratis Lieferung ab 20,00&nbsp;€</p>
+                <p style={{ color: '#48bb78', fontWeight: 600, marginTop: '0.5rem' }}>Gratis Lieferung ab 15,00&nbsp;€</p>
               </div>
             </div>
           </div>
