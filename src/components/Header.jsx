@@ -27,7 +27,7 @@ function Header(props) {
     <header className="header">
       <div className="header-container">
         <div className="logo-row">
-          <h1 className="restaurant-title logo">PIZZA WOW</h1>
+          <h1 className="restaurant-title logo">DOC WOW</h1>
         </div>
         <div className="header-content">
           <p className="welcome-message animated-welcome">Sie sind herzlich willkommen bei PIZZA WOW</p>
