@@ -52,16 +52,6 @@ function MainPage() {
               </div>
             </div>
             <div className="info-card">
-              <h2>Öffnungszeiten</h2>
-              <p>Montag: 12:00 - 22:00</p>
-              <p>Dienstag: Geschlossen</p>
-              <p>Mittwoch: 12:00 - 22:00</p>
-              <p>Donnerstag: 12:00 - 22:00</p>
-              <p>Freitag: 12:00 - 00:00</p>
-              <p>Samstag: 12:00 - 00:00</p>
-              <p>Sonntag: 12:00 - 22:00</p>
-            </div>
-            <div className="info-card">
               <h2>Kontakt</h2>
               <p>Geschäftsführer:</p>
               <p>Mostafa Saleh Mohamed Abdelhamid</p>
