@@ -37,17 +37,20 @@ body {
 }
 
 .main-content {
-  flex: 1;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 2rem 2rem 3rem 2rem;
+  min-height: 60vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-/* Section styling */
+/* Sections */
 .section {
-  min-height: 80vh;
-  padding: 2.5rem 0 2rem 0;
+  width: 100%;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,7 +72,7 @@ body {
 
 .restaurant-info {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
@@ -244,9 +247,10 @@ body {
   }
   
   .main-content {
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 0.5rem 2rem 0.5rem;
+    max-width: 98vw;
+    gap: 1.2rem;
   }
-  
   .section {
     min-height: 70vh;
     padding: 0.5rem 0.5rem;
@@ -289,3 +293,13 @@ body {
   }
 }
 
+@media (max-width: 480px) {
+  .main-content {
+    padding: 0.5rem 0.2rem 1rem 0.2rem;
+    max-width: 100vw;
+    gap: 0.8rem;
+  }
+  .section-header h2 {
+    font-size: 1.3rem;
+  }
+}  

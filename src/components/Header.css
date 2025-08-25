@@ -1,17 +1,21 @@
 .header {
   background: url('../assets/img/docwow-header.jpg');
-  background-size: 170% auto;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 2rem 0;
+  width: 100vw; /* S'adapte à toute la largeur de l'écran */
   position: relative;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* Animation de défilement horizontal pour le texte */
